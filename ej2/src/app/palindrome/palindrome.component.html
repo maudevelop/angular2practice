@@ -1,0 +1,6 @@
+<div class="container-fluid text-center">
+    <div class="well">
+<input [(ngModel)] = "text" placeholder="Type something." type="text" (ngModelChange)="checkWord(text)">
+<p *ngIf="text" id="resultado">{{ message }}</p>
+</div>
+</div>

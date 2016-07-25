@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+}
+
+.container{
+    width: 60%;
+}
+
+#giphies{
+    max-height: 170px;
+}
